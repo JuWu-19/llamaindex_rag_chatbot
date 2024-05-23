@@ -65,3 +65,42 @@ pip install -r requirements.txt
 cd user-management-frontend
 npm install
 npm run serve
+```
+### Component-Specific Configuration
+
+### Backend Configuration:
+Install necessary packages using:
+```bash
+pip install llama-index chromadb -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -U sentence-transformers -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+Configure PostgreSQL for database management.
+
+### Frontend Configuration:
+Ensure Node.js and Vue CLI are installed.
+Use 'vue.config.js' and 'jsconfig.json' for project-specific configurations.
+
+#### Frontend Installation Steps:
+Install Node.js and npm.
+Install Vue CLI:
+```bash
+npm install -g @vue/cli
+```
+Verify Vue CLI installation:
+```bash
+vue --version
+```
+Configure project using 'jsconfig.json':
+```bash
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  }
+}
