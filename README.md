@@ -34,15 +34,15 @@ The frontend is built using Vue.js and provides a user-friendly interface for in
 1. **LoginPage.vue**: Handles user login functionality.
 2. **RegisterPage.vue**: Manages user registration.
 3. **HomeView.vue**: The main landing page for users.
-4. **UserDashboard.vue**: The dashboard where users can manage their documents and view query results.
+4. **UserDashboard.vue**: The dashboard where users can manage their documents (upload & scrape), query, give feedback, and view query results.
 5. **AdminLogin.vue**: Admin-specific login interface.
-6. **AdminDashboard.vue**: The dashboard for admin users to manage documents, users, and feedback.
+6. **AdminDashboard.vue**: The dashboard for admin users to manage documents access, users, and feedback.
 7. **AboutView.vue**: Provides information about the application.
 8. **WelcomePage.vue**: Initial welcome page for users.
 
 **Functionalities:**
 - **User Authentication**: Secure login and registration for users and admins.
-- **Document Upload and Management**: Users can upload documents and view/manage them in the dashboard.
+- **Document Upload and Management**: Users can upload documents, get .txt documents by scraping the web, and view/manage them in the dashboard.
 - **Admin Controls**: Admins can manage user documents, feedback, and query records.
 
 ### Usage
