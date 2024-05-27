@@ -1,0 +1,8 @@
+certifi==2024.2.2
+charset-normalizer==3.3.2
+idna==3.6
+itchat @ git+https://github.com/luvletter2333/ItChat.git@a546adbb4433c1ea1a887cea4d2e7f1d327091f0
+pypng==0.20220715.0
+PyQRCode==1.2.1
+requests==2.31.0
+urllib3==2.2.1
