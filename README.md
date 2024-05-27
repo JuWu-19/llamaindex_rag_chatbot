@@ -1,7 +1,7 @@
 ## LlamaIndex-based and LLM-powered Q&A Management System
  
 ### Introduction
-This project is a Q&A management system leveraging the LlamaIndex and large language models (LLMs) to provide an intelligent, retrieval-augmented generation (RAG) based chatbot. The system integrates multiple components, including backend services and a frontend user management system, to deliver a robust and scalable solution for querying a knowledge base.
+This project is a Q&A management system leveraging the LlamaIndex and large language models (LLMs) to provide an intelligent, retrieval-augmented generation (RAG) based chatbot. The system integrates multiple components, including backend services and a frontend user management system, to deliver a robust and scalable solution for querying a knowledge base. More details on the design and implementation can be found in the associated technical report.
 
 ### Backend Components
 
@@ -53,32 +53,32 @@ Here are some views of the project prototype:
   <tr>
     <td>
       <p align="center"><strong>Welcome Page</strong></p>
-      <hr>
-      <img src="[path/to/image1.png](https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/5dd6dc3a-279c-4817-b3d6-d8b3cadc7d26)" alt="Image 1" width="300">
+      <hr style="border: 1px solid gray;">
+      <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/5dd6dc3a-279c-4817-b3d6-d8b3cadc7d26" alt="Welcome Page" width="300">
     </td>
     <td>
-      <p align="center"><strong>Title 4</strong></p>
-      <hr>
+      <p align="center"><strong>User Dashboard 1</strong></p>
+      <hr style="border: 1px solid gray;">
       <img src="path/to/image4.png" alt="Image 4" width="300">
     </td>
   </tr>
   <tr>
     <td>
-      <p align="center"><strong>Title 2</strong></p>
-      <hr>
-      <img src="path/to/image2.png" alt="Image 2" width="300">
+      <p align="center"><strong>User Registration</strong></p>
+      <hr style="border: 1px solid gray;">
+      <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/f0bd7877-72fa-4fb3-a7e9-0003f6ab477b" alt="Image 2" width="300">
     </td>
     <td>
-      <p align="center"><strong>Title 5</strong></p>
-      <hr>
+      <p align="center"><strong>User Dashboard 2</strong></p>
+      <hr style="border: 1px solid gray;">
       <img src="path/to/image5.png" alt="Image 5" width="300">
     </td>
   </tr>
   <tr>
     <td>
-      <p align="center"><strong>Title 3</strong></p>
-      <hr>
-      <img src="path/to/image3.png" alt="Image 3" width="300">
+      <p align="center"><strong>Admin Document Access Control</strong></p>
+      <hr style="border: 1px solid gray;">
+      <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/f4383d9d-7bd5-4c1d-96a6-21f5cf309035" alt="Image 3" width="300">
     </td>
   </tr>
 </table>
@@ -98,6 +98,7 @@ cd llamaindex_rag_chatbot
 # Setup Backend
 cd qa_backend
 pip install -r requirements.txt
+flask run
 
 # Setup Frontend
 cd user-management-frontend
