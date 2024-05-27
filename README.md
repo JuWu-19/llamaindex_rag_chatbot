@@ -51,43 +51,22 @@ Here are some views of the project prototype:
 
 <table>
   <tr>
-    <td style="text-align: center;">
-      <div>
-        <p style="text-align: center;"><strong>Welcome Page</strong></p>
-        <hr style="border: 1px solid gray;">
-        <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/5dd6dc3a-279c-4817-b3d6-d8b3cadc7d26" alt="Welcome Page" width="240" style="display: block; margin: auto;">
-      </div>
-    </td>
-    <td style="text-align: center;">
-      <div>
-        <p style="text-align: center;"><strong>User Registration</strong></p>
-        <hr style="border: 1px solid gray;">
-        <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/f0bd7877-72fa-4fb3-a7e9-0003f6ab477b" alt="User Registration" width="240" style="display: block; margin: auto;">
-      </div>
-    </td>
-    <td style="text-align: center;">
-      <div>
-        <p><strong>Admin Document Access Control</strong></p>
-        <hr style="border: 1px solid gray;">
-        <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/f4383d9d-7bd5-4c1d-96a6-21f5cf309035" alt="Admin Document Access Control" width="300" style="display: block; margin: auto;">
-      </div>
-    </td>
+    <td><img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/5dd6dc3a-279c-4817-b3d6-d8b3cadc7d26" alt="Welcome Page" width="120%"/></td>
+    <td><img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/f0bd7877-72fa-4fb3-a7e9-0003f6ab477b" alt="User Registration" width="120%"/></td>
+    <td><img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/f4383d9d-7bd5-4c1d-96a6-21f5cf309035" alt="Admin Document Access Control" width="120%"/></td>
   </tr>
   <tr>
-    <td style="text-align: center;">
-      <div>
-        <p><strong>User Dashboard 1</strong></p>
-        <hr style="border: 1px solid gray;">
-        <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/3366c760-d8ab-4257-8f71-1a3e64b41de0" alt="User Dashboard 1" width="300" style="display: block; margin: auto;">
-      </div>
-    </td>
-    <td style="text-align: center;">
-      <div>
-        <p><strong>User Dashboard 2</strong></p>
-        <hr style="border: 1px solid gray;">
-        <img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/b3778a8f-37f5-4a50-8bad-60de87e3eebf" alt="User Dashboard 2" width="300" style="display: block; margin: auto;">
-      </div>
-    </td>
+    <td align="center">Welcome Page</td>
+    <td align="center">User Registration</td>
+    <td align="center">Admin Document Access Control</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/3366c760-d8ab-4257-8f71-1a3e64b41de0" alt="User Dashboard 1" width="120%"/></td>
+    <td><img src="https://github.com/JuWu-19/llamaindex_rag_chatbot/assets/58901415/b3778a8f-37f5-4a50-8bad-60de87e3eebf" alt="User Dashboard 2" width="120%"/></td>
+  </tr>
+  <tr>
+    <td align="center">User Dashboard 1</td>
+    <td align="center">User Dashboard 2</td>
   </tr>
 </table>
 
